@@ -24,13 +24,13 @@
 
 	<form id="login_form" name="form1" method="post" >
 
-		<div class="form-floating mb-3">
-		    <label for="email_log" class="form-label">Email address</label>
+		<div class="mb-3">
+		<label for="pwd" class="form-label">Email address</label>
 			<input type="email" class="form-control" id="email_log" placeholder="Email" name="email" aria-describedby="emailHelp">
 		</div>
 
-		<div class="form-floating  mb-3">
-			<label for="password_log">Password</label>
+		<div class="mb-3">
+			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password_log" placeholder="Password" name="password">
 		</div>
         <div class="d-grid gap-2">
@@ -42,20 +42,20 @@
 <!-- Register Form -->
 
 <form id="register_form" name="form1" method="post" style="display:none;">
-		<div class="form-floating mb-3">
-			<label for="name">Name:</label>
+		<div class="mb-3">
+			<label for="email">Name:</label>
 			<input type="text" class="form-control" id="name" placeholder="Name" name="name">
 		</div>
-		<div class="form-floating mb-3">
-			<label for="email">Email:</label>
+		<div class="mb-3">
+			<label for="pwd">Email:</label>
 			<input type="email" class="form-control" id="email" placeholder="Email" name="email">
 		</div>
-		<div class="form-floating mb-3">
-			<label for="phone">Phone:</label>
+		<div class="mb-3">
+			<label for="pwd">Phone:</label>
 			<input type="text" class="form-control" id="phone" placeholder="Phone" name="phone">
 		</div>
-		<div class="form-floating mb-3" >
-			<label for="city">City:</label>
+		<div class="mb-3" >
+			<label for="pwd">City:</label>
 			<select name="city" id="city" class="form-control">
 				<option value="">Select</option>
 				<option value="Delhi">Delhi</option>
@@ -63,7 +63,7 @@
 				<option value="Pune">Pune</option>
 			</select>
 		</div>
-		<div class="form-floating mb-3">
+		<div class="mb-3">
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 		</div>
