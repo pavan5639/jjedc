@@ -27,7 +27,7 @@
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password_log" placeholder="Password" name="password">
 		</div>
-		<input type="button" name="save" class="btn btn-primary" value="Login" id="butlogin">
+		<input type="button" name="save" class="btn btn-success btn-lg btn-block" value="Login" id="butlogin">
         <button type="button" class="btn btn-primary btn-lg btn-block" id="register">Register</button>
     </form>
 <!-- Register Form -->
@@ -58,7 +58,7 @@
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 		</div>
-		<input type="button" name="save" class="btn btn-primary btn-lg btn-block" value="Register" id="butsave">
+		<input type="button" name="save" class="btn btn-success btn-lg btn-block" value="Register" id="butsave">
         <button type="button" class="btn btn-primary btn-lg btn-block" id="login">Login</button>
     </form>
 
