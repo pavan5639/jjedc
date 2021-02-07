@@ -57,10 +57,10 @@
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 		</div>
-		<input type="button" name="save" class="btn btn-primary" value="Register" id="butsave">
+		<input type="button" name="save" class="btn btn-primary btn-lg btn-block" value="Register" id="butsave">
 	</form>
-    
-    <button type="button" class="btn btn-success btn-sm" id="register">Register</button> <button type="button" class="btn btn-success btn-sm" id="login">Login</button>
+<br>
+    <button type="button" class="btn btn-primary btn-lg btn-block" id="register">Register</button>
 
     
 </div>
