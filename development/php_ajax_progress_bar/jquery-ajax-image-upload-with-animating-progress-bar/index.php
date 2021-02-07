@@ -9,31 +9,12 @@
     type="text/javascript"></script>
 <script type="text/javascript" src="jquery.form.min.js"></script>
 
-</head>
-<body>
-    <h1>jQuery Ajax Image Upload with Animating Progress Bar</h1>
-    <div class="form-container">
-        <form action="upload.php" id="uploadForm" name="frmupload"
-            method="post" enctype="multipart/form-data">
-            <input type="file" id="uploadImage" name="uploadImage" /> <input
-                id="submitButton" type="submit" name='btnSubmit'
-                value="Submit Image" />
-
-        </form>
-        <div class='progress' id="progressDivId">
-            <div class='progress-bar' id='progressBar'></div>
-            <div class='percent' id='percent'>0%</div>
-        </div>
-        <div style="height: 10px;"></div>
-        <div id='outputImage'></div>
-    </div>
-</body>
 <script type="text/javascript">
 $(document).ready(function () {
     $('#submitButton').click(function () {
     	    $('#uploadForm').ajaxForm({
     	        target: '#outputImage',
-    	        url: 'upload.php',
+    	        url: 'uploadFile.php',
     	        beforeSubmit: function () {
     	        	  $("#outputImage").hide();
     	        	   if($("#uploadImage").val() == "") {
@@ -83,4 +64,24 @@ $(document).ready(function () {
     });
 });
 </script>
+
+</head>
+<body>
+    <h1>jQuery Ajax Image Upload with Animating Progress Bar</h1>
+    <div class="form-container">
+        <form action="uploadFile.php" id="uploadForm" name="frmupload"
+            method="post" enctype="multipart/form-data">
+            <input type="file" id="uploadImage" name="uploadImage" /> <input
+                id="submitButton" type="submit" name='btnSubmit'
+                value="Submit Image" />
+
+        </form>
+        <div class='progress' id="progressDivId">
+            <div class='progress-bar' id='progressBar'></div>
+            <div class='percent' id='percent'>0%</div>
+        </div>
+        <div style="height: 10px;"></div>
+        <div id='outputImage'></div>
+    </div>
+</body>
 </html>
