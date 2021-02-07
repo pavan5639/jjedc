@@ -33,9 +33,11 @@
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password_log" placeholder="Password" name="password">
 		</div>
-
-		<input type="button" name="save" class="btn btn-success btn-lg btn-block" value="Login" id="butlogin">
-        <button type="button" class="btn btn-primary btn-lg btn-block" id="register">Register</button>
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <input type="button" name="save" class="btn btn-success " value="Login" id="butlogin">
+        <button type="button" class="btn btn-primary " id="register">Register</button>
+        </div>
+		
     </form>
 <!-- Register Form -->
 
@@ -65,8 +67,11 @@
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 		</div>
-		<input type="button" name="save" class="btn btn-success btn-lg btn-block" value="Register" id="butsave">
-        <button type="button" class="btn btn-primary btn-lg btn-block" id="login">Login</button>
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <input type="button" name="save" class="btn btn-success " value="Register" id="butsave">
+        <button type="button" class="btn btn-primary " id="login">Login</button>
+</div>
+		
     </form>
 
 </div>
