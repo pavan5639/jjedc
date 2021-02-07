@@ -42,19 +42,19 @@
 <!-- Register Form -->
 
 <form id="register_form" name="form1" method="post" style="display:none;">
-		<div class="mb-3">
+		<div class="form-floating mb-3">
 			<label for="email">Name:</label>
 			<input type="text" class="form-control" id="name" placeholder="Name" name="name">
 		</div>
-		<div class="mb-3">
+		<div class="form-floating mb-3">
 			<label for="pwd">Email:</label>
 			<input type="email" class="form-control" id="email" placeholder="Email" name="email">
 		</div>
-		<div class="mb-3">
+		<div class="form-floating mb-3">
 			<label for="pwd">Phone:</label>
 			<input type="text" class="form-control" id="phone" placeholder="Phone" name="phone">
 		</div>
-		<div class="mb-3" >
+		<div class="form-floating mb-3" >
 			<label for="pwd">City:</label>
 			<select name="city" id="city" class="form-control">
 				<option value="">Select</option>
@@ -63,7 +63,7 @@
 				<option value="Pune">Pune</option>
 			</select>
 		</div>
-		<div class="mb-3">
+		<div class="form-floating mb-3">
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 		</div>
