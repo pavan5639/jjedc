@@ -22,7 +22,7 @@
 
 <!-- Login Form -->
 
-	<form id="login_form" name="form1" method="post" >
+	<form id="login_form" class="d-grid gap-2 col-6 mx-auto" name="form1" method="post" >
 
 		<div class="mb-3">
 		<label for="pwd" class="form-label">Email address</label>
@@ -41,7 +41,7 @@
     </form>
 <!-- Register Form -->
 
-<form id="register_form" name="form1" method="post" style="display:none;">
+<form class="d-grid gap-2 col-6 mx-auto" id="register_form" name="form1" method="post" style="display:none;">
 		<div class="mb-3">
 			<label for="email">Name:</label>
 			<input type="text" class="form-control" id="name" placeholder="Name" name="name">
