@@ -15,7 +15,9 @@
 	</div>
 	<button type="button" class="btn btn-success btn-sm" id="register">Register</button> <button type="button" class="btn btn-success btn-sm" id="login">Login</button>
 	
-	<form id="register_form" name="form1" method="post">
+<!-- Register Form -->
+
+	<form id="register_form" name="form1" method="post" style="display:none;">
 		<div class="form-group">
 			<label for="email">Name:</label>
 			<input type="text" class="form-control" id="name" placeholder="Name" name="name">
@@ -43,7 +45,11 @@
 		</div>
 		<input type="button" name="save" class="btn btn-primary" value="Register" id="butsave">
 	</form>
-	<form id="login_form" name="form1" method="post" style="display:none;">
+
+
+<!-- Login Form -->
+
+	<form id="login_form" name="form1" method="post" >
 		
 		<div class="form-group">
 			<label for="pwd">Email:</label>
@@ -55,6 +61,9 @@
 		</div>
 		<input type="button" name="save" class="btn btn-primary" value="Login" id="butlogin">
 	</form>
+
+
+    
 </div>
 
 <script>
