@@ -13,7 +13,7 @@
 	<div class="alert alert-danger alert-dismissible" id="error" style="display:none;">
 	  <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
 	</div>
-	<button type="button" class="btn btn-success btn-sm" id="register">Register</button> <button type="button" class="btn btn-success btn-sm" id="login">Login</button>
+	
 
 <!-- Login Form -->
 
@@ -59,6 +59,8 @@
 		</div>
 		<input type="button" name="save" class="btn btn-primary" value="Register" id="butsave">
 	</form>
+    
+    <button type="button" class="btn btn-success btn-sm" id="register">Register</button> <button type="button" class="btn btn-success btn-sm" id="login">Login</button>
 
     
 </div>
