@@ -1,5 +1,5 @@
 <?php
-	include 'database.php';
+	include 'db/db.php';
 	session_start();
 	if($_POST['type']==1){
 		$name=$_POST['name'];
