@@ -18,10 +18,10 @@
 <hr> 
 <input id="uploadImage" type="file" accept="image/*" name="image" class="uploadimg"/>
 <input id="uploadImage1" type="file" accept="image/*" name="image1" class="uploadimg" /><br><div id="msg"></div>
-<div class="progress">
-    <div class="bar"></div >
-    <div class="percent">0%</div >
-</div>
+<div class='progress' id="progressDivId">
+            <div class='progress-bar' id='progressBar'></div>
+            <div class='percent' id='percent'>0%</div>
+        </div>
 <div id="err"></div>
 </div>
 </div>
@@ -46,25 +46,7 @@ $(document).ready(function(){
         }
     form_data.append('file', file_data);   
     $.ajax({
-
-        xhr: function() {
-    var xhr = new window.XMLHttpRequest();
-
-    xhr.upload.addEventListener("progress", function(evt) {
-      if (evt.lengthComputable) {
-        var percentComplete = evt.loaded / evt.total;
-        percentComplete = parseInt(percentComplete * 100);
-        console.log(percentComplete);
-
-        if (percentComplete === 100) {
-
-        }
-
-      }
-    }, false);
-
-    return xhr;
-  },
+        
         url: 'upload.php', /*point to server-side PHP script */
         dataType: 'text',  /* what to expect back from the PHP script, if anything*/
         cache: false,
@@ -72,6 +54,36 @@ $(document).ready(function(){
         processData: false,
         data: form_data,                         
         type: 'post',
+        beforeSubmit: function () {
+    	        	  $("#outputImage").hide();
+    	        	   if($("#uploadImage").val() == "") {
+    	        		   $("#outputImage").show();
+    	        		   $("#outputImage").html("<div class='error'>Choose a file to upload.</div>");
+                    return false; 
+                }
+    	            $("#progressDivId").css("display", "block");
+    	            var percentValue = '0%';
+ 
+    	            $('#progressBar').width(percentValue);
+    	            $('#percent').html(percentValue);
+    	        },
+    	        uploadProgress: function (event, position, total, percentComplete) {
+ 
+    	            var percentValue = percentComplete + '%';
+    	            $("#progressBar").animate({
+    	                width: '' + percentValue + ''
+    	            }, {
+    	                duration: 5000,
+    	                easing: "linear",
+    	                step: function (x) {
+                        percentText = Math.round(x * 100 / percentComplete);
+    	                    $("#percent").text(percentText + "%");
+                        if(percentText == "100") {
+                        	   $("#outputImage").show();
+                        }
+    	                }
+    	            });
+    	        },
         success: function(res){
            console.log(res);
            var res = JSON.parse(res);
