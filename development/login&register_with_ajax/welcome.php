@@ -16,6 +16,7 @@ if(!isset($_SESSION['email']) || empty($_SESSION['email'])) {
     <title>Welcome</title>
 </head>
 <body>
+    
     <a href="logout.php">logout</a>
 </body>
 </html>
