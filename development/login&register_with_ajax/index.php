@@ -36,7 +36,8 @@
 		</div>
         <div class="d-grid gap-2">
         <input type="button" name="save" class="btn btn-success " value="Login" id="butlogin">
-        <button type="button" class="btn btn-primary " id="register">Register</button>
+       
+        <button type="button" class="btn btn-outline-info" id="register">Register</button>
         </div>
 		
     </form>
@@ -70,7 +71,7 @@
 		</div>
         <div class="d-grid gap-2">
         <input type="button" name="save" class="btn btn-success " value="Register" id="butsave">
-        <button type="button" class="btn btn-primary " id="login">Login</button>
+        <button type="button" class="btn btn-outline-info"  id="login">Login</button>
 </div>
 		
     </form>
