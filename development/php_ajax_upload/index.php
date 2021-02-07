@@ -14,7 +14,7 @@
 
 <div class="col-md-8">
 
-<h1><a href="#" target="_blank"><img src="logo.png" width="80px"/>Ajax File Uploading with Database MySql</a></h1>
+<h1><a href="#" target="_blank"><img src="" width="80px"/>Ajax File Uploading with Database MySql</a></h1>
 <hr> 
 <input id="uploadImage" type="file" accept="image/*" name="image" class="uploadimg"/>
 <input id="uploadImage1" type="file" accept="image/*" name="image1" class="uploadimg" />
