@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION['email']) || empty($_SESSION['email'])) {
-    echo 'Welcome Guest.';
+    header("Location:index.php");
 } else {
     echo 'Welcome ' . $_SESSION['email'];
 }
@@ -16,7 +16,7 @@ if(!isset($_SESSION['email']) || empty($_SESSION['email'])) {
     <title>Welcome</title>
 </head>
 <body>
-    
     <a href="logout.php">logout</a>
+    
 </body>
 </html>
