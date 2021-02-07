@@ -25,12 +25,12 @@
 	<form id="login_form" name="form1" method="post" >
 
 		<div class="form-floating mb-3">
-		<label for="pwd" class="form-label">Email address</label>
+		    <label for="pwd" class="form-label">Email address</label>
 			<input type="email" class="form-control" id="email_log" placeholder="Email" name="email" aria-describedby="emailHelp">
 		</div>
 
 		<div class="form-floating  mb-3">
-			<label for="pwd">Password:</label>
+			<label for="pwd">Password</label>
 			<input type="password" class="form-control" id="password_log" placeholder="Password" name="password">
 		</div>
         <div class="d-grid gap-2">
