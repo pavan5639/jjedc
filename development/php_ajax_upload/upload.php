@@ -1,18 +1,26 @@
 <?php
+$valid_extensions = array('jpeg', 'jpg','png'); 
 
-//upload.php
-
-if(!empty($_FILES))
-{
- if(is_uploaded_file($_FILES['uploadFile']['tmp_name']))
- {
-  sleep(1);
-  $source_path = $_FILES['uploadFile']['tmp_name'];
-  $target_path = 'upload/' . $_FILES['uploadFile']['name'];
-  if(move_uploaded_file($source_path, $target_path))
-  {
-   echo '<img src="'.$target_path.'" class="img-thumbnail" width="300" height="250" />';
-  }
- }
-}
+    if ( 0 < $_FILES['file']['error'] ) {
+        echo 'Error: ' . $_FILES['file']['error'] . '<br>';
+    }
+    else {
+       
+        $code=mt_rand(10,100000);/* rename the file name*/
+        $size= $_FILES['file']['size'];
+        $ext = strtolower(pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION));
+        if($size > 2097152) /*2 mb 1024*1024 bytes*/
+        {
+            echo json_encode(array("statusCode"=>400,'msg'=>"Image allowd less than 2 mb"));
+        }
+        else if(!in_array($ext, $valid_extensions)) {
+            echo json_encode(array("statusCode"=>400,'msg'=>$ext.' not allowed'));
+        }
+        else{
+           
+            $result = move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/' . $code.'.'.$ext);
+            echo json_encode(array("statusCode"=>200 ,'code'=>$code));
+        }
+        
+    }
 ?>
