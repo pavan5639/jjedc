@@ -22,7 +22,7 @@
 
 <!-- Login Form -->
 
-	<form id="login_form" class="d-grid gap-2 col-6 mx-auto" name="form1" method="post" >
+	<form id="login_form" name="form1" method="post" >
 
 		<div class="mb-3">
 		<label for="pwd" class="form-label">Email address</label>
@@ -33,7 +33,7 @@
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password_log" placeholder="Password" name="password">
 		</div>
-        <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="d-grid gap-2">
         <input type="button" name="save" class="btn btn-success " value="Login" id="butlogin">
         <button type="button" class="btn btn-primary " id="register">Register</button>
         </div>
@@ -41,7 +41,7 @@
     </form>
 <!-- Register Form -->
 
-<form class="d-grid gap-2 col-6 mx-auto" id="register_form" name="form1" method="post" style="display:none;">
+<form id="register_form" name="form1" method="post" style="display:none;">
 		<div class="mb-3">
 			<label for="email">Name:</label>
 			<input type="text" class="form-control" id="name" placeholder="Name" name="name">
@@ -67,7 +67,7 @@
 			<label for="pwd">Password:</label>
 			<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 		</div>
-        <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="d-grid gap-2">
         <input type="button" name="save" class="btn btn-success " value="Register" id="butsave">
         <button type="button" class="btn btn-primary " id="login">Login</button>
 </div>
