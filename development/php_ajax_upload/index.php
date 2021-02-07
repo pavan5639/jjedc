@@ -54,7 +54,7 @@ $(document).ready(function(){
            console.log(res);
            var res = JSON.parse(res);
 					if(res.statusCode==200){
-                        $('#error').html('Done !');			
+                        $('#msg').html('Done !');			
 					}
 					else if(res.statusCode==201){
 						
