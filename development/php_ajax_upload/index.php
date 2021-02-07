@@ -17,7 +17,7 @@
 <h1><a href="#" target="_blank"><img src="" width="80px"/>Ajax File Uploading with Database MySql</a></h1>
 <hr> 
 <input id="uploadImage" type="file" accept="image/*" name="image" class="uploadimg"/>
-<input id="uploadImage1" type="file" accept="image/*" name="image1" class="uploadimg" />
+<input id="uploadImage1" type="file" accept="image/*" name="image1" class="uploadimg" /><br><div id="msg"></div>
 
 <div id="err"></div>
 </div>
@@ -52,6 +52,14 @@ $(document).ready(function(){
         type: 'post',
         success: function(res){
            console.log(res);
+           var res = JSON.parse(res);
+					if(res.statusCode==200){
+                        $('#error').html('Done !');			
+					}
+					else if(res.statusCode==201){
+						
+						$('#error').html('Email ID already exists !');
+					}
         }
      });
 });
