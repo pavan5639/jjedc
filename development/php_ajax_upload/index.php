@@ -17,11 +17,10 @@
 <h1><a href="#" target="_blank"><img src="" width="80px"/>Ajax File Uploading with Database MySql</a></h1>
 <hr> 
 <input id="uploadImage" type="file" accept="image/*" name="image" class="uploadimg"/>
-<input id="uploadImage1" type="file" accept="image/*" name="image1" class="uploadimg" /><br><div id="msg"></div>
-<div class='progress' id="progressDivId">
-            <div class='progress-bar' id='progressBar'></div>
-            <div class='percent' id='percent'>0%</div>
-        </div>
+<!-- <input id="uploadImage1" type="file" accept="image/*" name="image1" class="uploadimg" /> -->
+<br>
+<div id="msg"></div>
+
 <div id="err"></div>
 </div>
 </div>
@@ -46,7 +45,6 @@ $(document).ready(function(){
         }
     form_data.append('file', file_data);   
     $.ajax({
-        
         url: 'upload.php', /*point to server-side PHP script */
         dataType: 'text',  /* what to expect back from the PHP script, if anything*/
         cache: false,
@@ -54,36 +52,6 @@ $(document).ready(function(){
         processData: false,
         data: form_data,                         
         type: 'post',
-        beforeSubmit: function () {
-    	        	  $("#outputImage").hide();
-    	        	   if($("#uploadImage").val() == "") {
-    	        		   $("#outputImage").show();
-    	        		   $("#outputImage").html("<div class='error'>Choose a file to upload.</div>");
-                    return false; 
-                }
-    	            $("#progressDivId").css("display", "block");
-    	            var percentValue = '0%';
- 
-    	            $('#progressBar').width(percentValue);
-    	            $('#percent').html(percentValue);
-    	        },
-    	        uploadProgress: function (event, position, total, percentComplete) {
- 
-    	            var percentValue = percentComplete + '%';
-    	            $("#progressBar").animate({
-    	                width: '' + percentValue + ''
-    	            }, {
-    	                duration: 5000,
-    	                easing: "linear",
-    	                step: function (x) {
-                        percentText = Math.round(x * 100 / percentComplete);
-    	                    $("#percent").text(percentText + "%");
-                        if(percentText == "100") {
-                        	   $("#outputImage").show();
-                        }
-    	                }
-    	            });
-    	        },
         success: function(res){
            console.log(res);
            var res = JSON.parse(res);
