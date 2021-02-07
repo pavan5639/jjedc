@@ -13,7 +13,7 @@
 <body>
     <h1>jQuery Ajax Image Upload with Animating Progress Bar</h1>
     <div class="form-container">
-        <form action="uploadFile.php" id="uploadForm" name="frmupload"
+        <form action="upload.php" id="uploadForm" name="frmupload"
             method="post" enctype="multipart/form-data">
             <input type="file" id="uploadImage" name="uploadImage" /> <input
                 id="submitButton" type="submit" name='btnSubmit'
@@ -33,7 +33,7 @@ $(document).ready(function () {
     $('#submitButton').click(function () {
     	    $('#uploadForm').ajaxForm({
     	        target: '#outputImage',
-    	        url: 'uploadFile.php',
+    	        url: 'upload.php',
     	        beforeSubmit: function () {
     	        	  $("#outputImage").hide();
     	        	   if($("#uploadImage").val() == "") {
