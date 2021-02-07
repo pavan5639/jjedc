@@ -28,7 +28,8 @@
 			<input type="password" class="form-control" id="password_log" placeholder="Password" name="password">
 		</div>
 		<input type="button" name="save" class="btn btn-primary" value="Login" id="butlogin">
-	</form>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="register">Register</button>
+    </form>
 <!-- Register Form -->
 
 <form id="register_form" name="form1" method="post" style="display:none;">
@@ -58,11 +59,9 @@
 			<input type="password" class="form-control" id="password" placeholder="Password" name="password">
 		</div>
 		<input type="button" name="save" class="btn btn-primary btn-lg btn-block" value="Register" id="butsave">
-	</form>
-<br>
-    <button type="button" class="btn btn-primary btn-lg btn-block" id="register">Register</button>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="login">Login</button>
+    </form>
 
-    
 </div>
 
 <script>
