@@ -226,12 +226,11 @@ $msg = "";
 
         <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-teacher"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Principal's Desk</h3>
-                <p>Jnana Jyothi Educational Institution believes in the principles of ‘Work is
+            <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
+  <div class="card-body"><br>
+  <h3 class="heading">Principal's Desk</h3><br>
+    <p class="card-text">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
 Worship’ and ‘Giving Back to Society’. <br>
 Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
 Eshwara Seva Samithi under the patronage and blessing of Sri Sri Shivakumara Swamiji,
@@ -246,7 +245,22 @@ providing the platform to unleash their potential to climb the ladder of success
 institution provides best opportunity to bring out the best in the students to strike a balance
 between learning and earning. We groom them in their all-round development. Our passed
 out students are working in different streams with well being positions, with this intention our
-staff is working on motivating the students.</p>
+staff is working on motivating the students.
+</p>
+  </div>
+</div>
+
+
+
+
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-teacher"></span>
+              </div>
+              <div class="media-body p-2 mt-3">
+                
+                <p>Jnana Jyothi Educational Institution believes in the principles of ‘Work is
+Worship’ and ‘Giving Back to Society’. <br>
+</p>
              <a href="#">Read more</a>
               </div>
             </div>      
