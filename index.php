@@ -136,10 +136,7 @@ $msg = "";
           Student Corner
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Counselling</a></li>
-          <li><a class="dropdown-item" href="#">PTM and Mentoring</a></li>
-          
-          <li class="dropdown-submenu">
+        <li class="dropdown-submenu">
                <a class="dropdown-item dropdown-toggle" href="#">Safety Cells</a>
                <ul class="dropdown-menu">
                  <li><a class="dropdown-item" href="#">Anti-Ragging Cell</a></li>
@@ -147,6 +144,10 @@ $msg = "";
                   <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
                 </ul>
           </li>
+          <li><a class="dropdown-item" href="#">Counselling</a></li>
+          <li><a class="dropdown-item" href="#">PTM and Mentoring</a></li>
+          
+         
           <li class="dropdown-submenu">
                   <a class="dropdown-item dropdown-toggle" href="#">Other Cells</a>
                   <ul class="dropdown-menu">
