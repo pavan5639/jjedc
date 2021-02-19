@@ -246,7 +246,7 @@ $msg = "";
                                     <h3 class="heading">Examination</h3>
                                     </div>
                                     <div class="card-body">
-                                    <img class="card-img-top img-fluid" style="width:400px" src="./images/about-2.jpg" alt="Card image cap">
+                                    <img class="card-img-top img-fluid"  src="./images/about-2.jpg" alt="Card image cap">
                                       <p class="text-justify"><br>
                                       The Examination committee is a committee of the college which is headed by the Examination Coordinator and supporting faculty
 member. Internal Assessments will be organized and records are maintained. The main function of this Committee is to carry out
