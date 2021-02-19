@@ -194,13 +194,17 @@ $msg = "";
 
         <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-teacher"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Principal's Desk</h3>
-                <p class="text-justify">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
-Worship’ and ‘Giving Back to Society’. <br>
+            <div class="card text-center">
+  <div class="card-header">
+  Principal's Desk
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
+Worship’ and ‘Giving Back to Society’.</p> <br>
+  </div>
+  <div class="card-footer text-muted">
+  <p class="text-justify">
 Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
 Eshwara Seva Samithi under the patronage and blessing of Sri Sri Shivakumara Swamiji,
 Siddaganga Mutt. The college is a constituent college of Bengaluru City University. It has an
@@ -215,6 +219,14 @@ institution provides best opportunity to bring out the best in the students to s
 between learning and earning. We groom them in their all-round development. Our passed
 out students are working in different streams with well being positions, with this intention our
 staff is working on motivating the students.</p>
+  </div>
+</div>
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-teacher"></span>
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading"></h3>
+                
              <a href="#">Read more</a>
               </div>
             </div>      
