@@ -196,10 +196,10 @@ $msg = "";
             <div class="media block-6 d-block text-center">
             <div class="card text-center">
   <div class="card-header">
-  Principal's Desk
+<h1>  Principal's Desk</h1>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
+  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
     <p class="card-text">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
 Worship’ and ‘Giving Back to Society’.</p> <br>
   </div>
