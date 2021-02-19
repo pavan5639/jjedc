@@ -227,10 +227,10 @@ $msg = "";
           <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="container-fluid">
                                               <div class="card text-center">
-                                    <!-- <div class="card-header">
+                                    <div class="card-header">
                                     <h3 class="heading">Principal's Desk</h3>
-                                    </div> -->
-                                    <!-- <div class="card-body">
+                                    </div>
+                                    <div class="card-body">
                                     <img class="card-img-top" style="width:300px" src="./images/about-2.jpg" alt="Card image cap">
                                       <p class="text-justify"><br>
                                                     Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
@@ -248,18 +248,18 @@ $msg = "";
                                                     out students are working in different streams with well being positions, with this intention our
                                                     staff is working on motivating the students.</p>
 
-                                    </div> -->
-                                    <!-- <div class="card-footer text-muted">
+                                    </div>
+                                    <div class="card-footer text-muted">
                                     Jnana Jyothi Educational Institution believes in the principles of ‘Work is
                                                     Worship’ and ‘Giving Back to Society’.
-                                    </div> -->
+                                    </div>
                                     </div>
 
                </div>      
           </div>
 
 
-          <div class="col-md-12 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-teacher"></span>
@@ -274,7 +274,7 @@ Sri Sri Shivakumara Swamiji, Siddaganga Mutt.</p>
               </div>
             </div>      
           </div>
-          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-reading"></span>
@@ -291,7 +291,7 @@ Provide an opportunity to bring out the best in the students to strike a balance
               </div>
             </div>    
           </div>
-          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-books"></span>
