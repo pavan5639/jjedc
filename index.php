@@ -232,8 +232,7 @@ $msg = "";
   </div>
   <div class="card-body">
   <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
-    <p class="text-justify">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
-                  Worship’ and ‘Giving Back to Society’. <br>
+    <p class="text-justify"><br>
                   Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
                   Eshwara Seva Samithi under the patronage and blessing of Sri Sri Shivakumara Swamiji,
                   Siddaganga Mutt. The college is a constituent college of Bengaluru City University. It has an
@@ -248,10 +247,11 @@ $msg = "";
                   between learning and earning. We groom them in their all-round development. Our passed
                   out students are working in different streams with well being positions, with this intention our
                   staff is working on motivating the students.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
   </div>
   <div class="card-footer text-muted">
-    2 days ago
+  Jnana Jyothi Educational Institution believes in the principles of ‘Work is
+                  Worship’ and ‘Giving Back to Society’.
   </div>
 </div>
 
