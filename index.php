@@ -164,8 +164,22 @@ $msg = "";
           <li><a class="dropdown-item" href="#">Seminars</a></li>
           <li><a class="dropdown-item" href="#">Study Centres</a></li>
           <li><a class="dropdown-item" href="#">Cultural</a></li>
-          <li><a class="dropdown-item" href="#"></a></li>
-          <li><a class="dropdown-item" href="#">Examination</a></li>
+          <li><a class="dropdown-item" href="#">Sports</a></li>
+          <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
+          
+         
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Facilities
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Classroom</a></li>
+          <li><a class="dropdown-item" href="#">Activities hall </a></li>
+          <li><a class="dropdown-item" href="#">Library</a></li>
+          <li><a class="dropdown-item" href="#">Canteen</a></li>
+          <li><a class="dropdown-item" href="#">Computer Lab  </a></li>
           
          
         </ul>
