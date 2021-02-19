@@ -622,7 +622,7 @@ $msg = "";
 $('#textBox1').keypress(function(e) {
     var tval = $('#textBox1').val(),
         tlength = tval.length,
-        set = 150,
+        set = 2000,
         remain = parseInt(set - tlength);
     $('#p').text(remain);
     if (remain <= 0 && e.which !== 0 && e.charCode !== 0) {
