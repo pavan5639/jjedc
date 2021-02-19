@@ -148,15 +148,28 @@ $msg = "";
                 </ul>
           </li>
           <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">Safety Cells</a>
+                  <a class="dropdown-item dropdown-toggle" href="#">Other Cells</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Anti-Ragging Cell</a></li>
-                    <li><a class="dropdown-item" href="#">Anti-Sexual harassment Cell</a></li>
-                    <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
+                    <li><a class="dropdown-item" href="#">Human Rights Awareness Cell</a></li>
+                 
                   </ul>
           </li>
           </ul>
         </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Activities
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Seminars</a></li>
+          <li><a class="dropdown-item" href="#">Study Centres</a></li>
+          <li><a class="dropdown-item" href="#">Cultural</a></li>
+          <li><a class="dropdown-item" href="#"></a></li>
+          <li><a class="dropdown-item" href="#">Examination</a></li>
+          
+         
+        </ul>
+      </li>
     </ul>
   </div>
 </nav>
