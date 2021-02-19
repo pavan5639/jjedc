@@ -243,10 +243,10 @@ $msg = "";
             <div class="container-fluid">
                                               <div class="card ">
                                     <div class="card-header">
-                                    <h1 class="heading">Anti-Sexual Harassment cell</h1>
+                                    <h1 class="heading">Human Re</h1>
                                     </div>
                                     <div class="card-body">
-                                   
+                                    <img class="card-img-top img-fluid"  src="" alt="Card image cap">
                                       <p class="text-justify"><br>
                                       Sexual harassment is perceived to violate an individual’s dignity. It has ruined countless innocent lives and careers.
 The responsibility of universities and colleges as modern educational institutions is not only to treat women students
