@@ -123,9 +123,8 @@ $msg = "";
             <li><a class="dropdown-item" href="#">Counselling</a></li>
             <li><a class="dropdown-item" href="#">PTM and Mentoring </a></li>
             <li>
-            <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Safety Cells
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Activities
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Seminars</a></li>
@@ -134,7 +133,6 @@ $msg = "";
             <li><a class="dropdown-item" href="#">Sports</a></li>
             <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
           </ul>
-        </li>
             </li>
            
           </ul>
