@@ -243,7 +243,7 @@ $msg = "";
             <div class="container-fluid">
                                               <div class="card ">
                                     <div class="card-header">
-                                    <h3 class="heading">Examination</h3>
+                                    <h1 class="heading">Examination</h1>
                                     </div>
                                     <div class="card-body">
                                     <img class="card-img-top img-fluid"  src="./images/about-2.jpg" alt="Card image cap">
