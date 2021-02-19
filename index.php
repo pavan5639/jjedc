@@ -199,7 +199,7 @@ $msg = "";
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Principal's Desk</h3>
-                <p>Jnana Jyothi Educational Institution believes in the principles of ‘Work is
+                <p class="text-justify">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
 Worship’ and ‘Giving Back to Society’. <br>
 Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
 Eshwara Seva Samithi under the patronage and blessing of Sri Sri Shivakumara Swamiji,
