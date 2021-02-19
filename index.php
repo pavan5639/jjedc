@@ -240,10 +240,13 @@ $msg = "";
 
         <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center">
+  <div class="card-header">
+  <h3 class="heading">Principal's Desk</h3>
+  </div>
+  <div class="card-body">
   <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
-  <div class="card-body"><br>
-  <h3 class="heading">Principal's Desk</h3><br>
+    <h5 class="card-title">Special title treatment</h5>
     <p class="card-text">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
 Worship’ and ‘Giving Back to Society’. <br>
 Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
@@ -261,7 +264,12 @@ between learning and earning. We groom them in their all-round development. Our 
 out students are working in different streams with well being positions, with this intention our
 staff is working on motivating the students.
 </p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
 </div>
 
 
