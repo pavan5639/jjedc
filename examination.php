@@ -241,7 +241,7 @@ $msg = "";
 
           <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="container-fluid">
-                                              <div class="card text-center">
+                                              <div class="card ">
                                     <div class="card-header">
                                     <h3 class="heading">Examination</h3>
                                     </div>
