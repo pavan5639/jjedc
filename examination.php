@@ -101,16 +101,16 @@ $msg = "";
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About JJEDC
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Overview</a></li>
-          <li><a class="dropdown-item" href="#">Vision And Mission</a></li>
-          <li><a class="dropdown-item" href="#">About JJEI</a></li>
+          <li><a class="dropdown-item" href="index.php#overview">Overview</a></li>
+          <li><a class="dropdown-item" href="index.php#Vision">Vision And Mission</a></li>
+          <li><a class="dropdown-item" href="index.php#JJEI">About JJEI</a></li>
           <li><a class="dropdown-item" href="#">Governing Council</a></li>
           <li><a class="dropdown-item" href="#">Management Team</a></li>
           <li><a class="dropdown-item" href="#">videos</a></li>
@@ -124,7 +124,7 @@ $msg = "";
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li><a class="dropdown-item" href="#">Course Offered</a></li>
           <li><a class="dropdown-item" href="#">Department</a></li>
-          <li><a class="dropdown-item" href="#">Examination</a></li>
+          <li><a class="dropdown-item" href="#examination">Examination</a></li>
           
          
         </ul>
@@ -140,7 +140,7 @@ $msg = "";
                <a class="dropdown-item dropdown-toggle" href="#">Safety Cells</a>
                <ul class="dropdown-menu">
                  <li><a class="dropdown-item" href="#">Anti-Ragging Cell</a></li>
-                 <li><a class="dropdown-item" href="#">Anti-Sexual harassment Cell</a></li>
+                 <li><a class="dropdown-item" href="anti_sexual.php">Anti-Sexual harassment Cell</a></li>
                   <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
                 </ul>
           </li>
@@ -151,7 +151,7 @@ $msg = "";
           <li class="dropdown-submenu">
                   <a class="dropdown-item dropdown-toggle" href="#">Other Cells</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Human Rights Awareness Cell</a></li>
+                    <li><a class="dropdown-item" href="human_right.php">Human Rights Awareness Cell</a></li>
                  
                   </ul>
           </li>
@@ -166,7 +166,7 @@ $msg = "";
           <li><a class="dropdown-item" href="#">Study Centres</a></li>
           <li><a class="dropdown-item" href="#">Cultural</a></li>
           <li><a class="dropdown-item" href="#"> Sports</a></li>
-          <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
+          <li><a class="dropdown-item" href="youth.php">Youth Red Cross</a></li>
           
          
         </ul>
@@ -239,7 +239,7 @@ $msg = "";
 			<div class="container-wrap">
 		
 
-          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary" id="examination">
             <div class="container-fluid">
                                               <div class="card ">
                                     <div class="card-header">

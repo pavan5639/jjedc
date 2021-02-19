@@ -124,7 +124,7 @@ $msg = "";
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li><a class="dropdown-item" href="courses.php">Course Offered</a></li>
           <li><a class="dropdown-item" href="#">Department</a></li>
-          <li><a class="dropdown-item" href="#">Examination</a></li>
+          <li><a class="dropdown-item" href="#examination.php">Examination</a></li>
           
          
         </ul>
@@ -140,7 +140,7 @@ $msg = "";
                <a class="dropdown-item dropdown-toggle" href="#">Safety Cells</a>
                <ul class="dropdown-menu">
                  <li><a class="dropdown-item" href="#">Anti-Ragging Cell</a></li>
-                 <li><a class="dropdown-item" href="#">Anti-Sexual harassment Cell</a></li>
+                 <li><a class="dropdown-item" href="anti-sexual.php">Anti-Sexual harassment Cell</a></li>
                   <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
                 </ul>
           </li>
@@ -151,7 +151,7 @@ $msg = "";
           <li class="dropdown-submenu">
                   <a class="dropdown-item dropdown-toggle" href="#">Other Cells</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Human Rights Awareness Cell</a></li>
+                    <li><a class="dropdown-item" href="human_rights.php">Human Rights Awareness Cell</a></li>
                  
                   </ul>
           </li>
@@ -166,7 +166,7 @@ $msg = "";
           <li><a class="dropdown-item" href="#">Study Centres</a></li>
           <li><a class="dropdown-item" href="#">Cultural</a></li>
           <li><a class="dropdown-item" href="#"> Sports</a></li>
-          <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
+          <li><a class="dropdown-item" href="youth_red.php">Youth Red Cross</a></li>
           
          
         </ul>

@@ -108,9 +108,9 @@ $msg = "";
           About JJEDC
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Overview</a></li>
-          <li><a class="dropdown-item" href="#">Vision And Mission</a></li>
-          <li><a class="dropdown-item" href="#">About JJEI</a></li>
+          <li><a class="dropdown-item" href="index.php#overview">Overview</a></li>
+          <li><a class="dropdown-item" href="index.php#Vision">Vision And Mission</a></li>
+          <li><a class="dropdown-item" href="index.php#JJEI">About JJEI</a></li>
           <li><a class="dropdown-item" href="#">Governing Council</a></li>
           <li><a class="dropdown-item" href="#">Management Team</a></li>
           <li><a class="dropdown-item" href="#">videos</a></li>
@@ -124,7 +124,7 @@ $msg = "";
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li><a class="dropdown-item" href="#">Course Offered</a></li>
           <li><a class="dropdown-item" href="#">Department</a></li>
-          <li><a class="dropdown-item" href="#">Examination</a></li>
+          <li><a class="dropdown-item" href="examination.php">Examination</a></li>
           
          
         </ul>
@@ -140,7 +140,7 @@ $msg = "";
                <a class="dropdown-item dropdown-toggle" href="#">Safety Cells</a>
                <ul class="dropdown-menu">
                  <li><a class="dropdown-item" href="#">Anti-Ragging Cell</a></li>
-                 <li><a class="dropdown-item" href="#">Anti-Sexual harassment Cell</a></li>
+                 <li><a class="dropdown-item" href="anti-sexual.php">Anti-Sexual harassment Cell</a></li>
                   <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
                 </ul>
           </li>
@@ -151,7 +151,7 @@ $msg = "";
           <li class="dropdown-submenu">
                   <a class="dropdown-item dropdown-toggle" href="#">Other Cells</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Human Rights Awareness Cell</a></li>
+                    <li><a class="dropdown-item" href="#humanrights">Human Rights Awareness Cell</a></li>
                  
                   </ul>
           </li>
@@ -166,7 +166,7 @@ $msg = "";
           <li><a class="dropdown-item" href="#">Study Centres</a></li>
           <li><a class="dropdown-item" href="#">Cultural</a></li>
           <li><a class="dropdown-item" href="#"> Sports</a></li>
-          <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
+          <li><a class="dropdown-item" href="youth_red.php">Youth Red Cross</a></li>
           
          
         </ul>
@@ -239,7 +239,7 @@ $msg = "";
 			<div class="container-wrap">
 		
 
-          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary" id="humanrights">
             <div class="container-fluid">
                                               <div class="card ">
                                     <div class="card-header">
