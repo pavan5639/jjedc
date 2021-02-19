@@ -108,9 +108,9 @@ $msg = "";
           About JJEDC
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Overview</a></li>
-          <li><a class="dropdown-item" href="#">Vision And Mission</a></li>
-          <li><a class="dropdown-item" href="#">About JJEI</a></li>
+          <li><a class="dropdown-item" href="#overview">Overview</a></li>
+          <li><a class="dropdown-item" href="#Vision">Vision And Mission</a></li>
+          <li><a class="dropdown-item" href="#JJEI">About JJEI</a></li>
           <li><a class="dropdown-item" href="#">Governing Council</a></li>
           <li><a class="dropdown-item" href="#">Management Team</a></li>
           <li><a class="dropdown-item" href="#">videos</a></li>
@@ -274,7 +274,7 @@ $msg = "";
           </div>
 
 
-          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-info" id="overview">
           <div class="container-fluid">
                                               <div class="card text-center">
                                     <div class="card-header">
@@ -299,7 +299,7 @@ Sri Sri Shivakumara Swamiji, Siddaganga Mutt.</p>
           </div>
           </div>
           
-          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken" id="Vision">
           <div class="container-fluid">
                                               <div class="card text-center">
                                     <div class="card-header">
@@ -327,7 +327,7 @@ and earning.</p>
           </div>  
           </div>
 
-          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary" id="JJEI">
              <div class="container-fluid">
                                               <div class="card text-center">
                                     <div class="card-header">
