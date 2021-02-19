@@ -222,9 +222,9 @@ $msg = "";
     <section class="ftco-services ftco-no-pb">
     
 			<div class="container-wrap">
-				<div class="row no-gutters">
+		
 
-          <div class="col-md-12 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-12  no-gutters d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="container-fluid">
                                               <div class="card text-center">
                                     <!-- <div class="card-header">
@@ -336,7 +336,7 @@ Sri Sri Shivakumara Swamiji, Siddaganga Mutt.</p>
             </div>      
           </div> -->
         </div>
-			</div>
+		
 		</section>
 		
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
