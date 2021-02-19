@@ -192,7 +192,7 @@ $msg = "";
 			<div class="container-wrap">
 				<div class="row no-gutters">
 
-        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+        <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
             <div class="card text-center">
   <div class="card-header">
@@ -221,9 +221,7 @@ out students are working in different streams with well being positions, with th
 staff is working on motivating the students.</p>
   </div>
 </div>
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-teacher"></span>
-              </div>
+
               <div class="media-body p-2 mt-3">
                 <h3 class="heading"></h3>
                 
@@ -231,7 +229,7 @@ staff is working on motivating the students.</p>
               </div>
             </div>      
           </div>
-          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-teacher"></span>
@@ -246,7 +244,7 @@ Sri Sri Shivakumara Swamiji, Siddaganga Mutt.</p>
               </div>
             </div>      
           </div>
-          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-reading"></span>
@@ -263,7 +261,7 @@ Provide an opportunity to bring out the best in the students to strike a balance
               </div>
             </div>    
           </div>
-          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-books"></span>
