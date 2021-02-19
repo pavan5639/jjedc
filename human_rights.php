@@ -243,38 +243,27 @@ $msg = "";
             <div class="container-fluid">
                                               <div class="card ">
                                     <div class="card-header">
-                                    <h1 class="heading">Human Re</h1>
+                                    <h1 class="heading">Human Rights Awareness cell</h1>
                                     </div>
                                     <div class="card-body">
-                                    <img class="card-img-top img-fluid"  src="" alt="Card image cap">
+                                  
                                       <p class="text-justify"><br>
-                                      Sexual harassment is perceived to violate an individual’s dignity. It has ruined countless innocent lives and careers.
-The responsibility of universities and colleges as modern educational institutions is not only to treat women students
-and all youth regardless of gender as citizens who have a right to safety but to assist them physically, emotionally
-and intellectually to claim that right and seek to expand its contours. <br> <h4>The following is also sexual harassment and is covered by the committee</h4> <br>
+                                      Human Rights are almost a form of religion in today’s world. Human Rights are the great ethical
+yardstick that is used to measure a government’s treatment of its people. Justice and peace can
+become a reality when human rights are acknowledged, respected and promoted. Individuals
+cannot attain their full potential if they are denied their legitimate rights. With this commitment
+to uphold the rights and dignity of the human beings, the Human rights cell was setup in our
+College. <br> <h3>VISION</h3> <br>The vision of the cell is to have the focal point for Human Rights practice in the campus
+and to be accessible to everyone<br>
+<h3>MISSION</h3><br>By supporting each other in and out of the college campus through the awareness of
+Human Rights and protecting the same by monitoring and accessing the observance
+through educating and training the students on various related issues.
  <ul><br>
-    <li>Unsavory remarks </li><br><li>Jokes causing or likely to cause awkwardness or embarrassment</li><br> <li> Innuendos and taunts</li><li>  Gender based insults or sexist remarks</li>
-    <li>Unwelcome sexual overtone in any manner such as over telephone and the like.</li>
-    <li> Touching or brushing against any part of the body and the like.</li>
-    <li> Displaying pornographic or other offensive or derogatory pictures, cartoons, pamphlets or sayings.</li>
-    <li>Forcible physical touch or molestation</li>
-    <li>Physical confinement against one’s will and any other act likely to violate one’s privacy</li>
-</ul> 
-<h4>STEPS TO TAKE IF BEING SEXUALLY HARASSED </h4>
-<ol><li>  Know your rights</li>
-<li> Do not blame yourself</li>
-<li> Do not ignore it</li>
-<li> Do not delay</li>
-<li> Do not hesitate to ask for help</li></ol>
-<br>
-Anti Sexual Harassment Cell assures all the complaints of the students, teaching and non – teaching staffs
-are treated with dignity and respect and the complaints will be maintained confidential.
-Committee Responsibilities: Various activities are conducted to students in order to bring awareness
-about the concept by organizing seminars, questionnaires and self defense programmes in college.
-</p><br>
-<br>
-<p><b>Member:B R Divya Shree</b></p><br>
-<p><b>Student Member: Prashanth K V &amp; Shwetha K</b></p>
+ <h3>OBJECTIVES</h3><ol><li> To promote human rights culture.</li>
+ <li>To raise awareness of human rights issues.</li>
+ <li>To educate and train the students on human rights.</li>
+ <li> To provide accurate and timely information about human rights violation in India.</li></ol>
+     </p>
 
                                     </div>
                                     <div class="card-footer text-muted">
