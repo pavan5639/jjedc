@@ -193,7 +193,7 @@ $msg = "";
                                     ?>
       <div class="col-lg-12 course ftco-animate">
 						
-            <img src="./admin/img/<?php  echo $row["path"];?>" alt="" srcset="">
+            <img src="./admin/img/<?php  echo $row["path"];?>" class="img-fluid" alt="" srcset="">
 						<div class="text pt-4">
 						
 							<h3><a href="#"> <?php  echo $row["name"];?></a></h3>
