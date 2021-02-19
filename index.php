@@ -122,7 +122,7 @@ $msg = "";
           Academics
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Course Offered</a></li>
+          <li><a class="dropdown-item" href="courses.php">Course Offered</a></li>
           <li><a class="dropdown-item" href="#">Department</a></li>
           <li><a class="dropdown-item" href="#">Examination</a></li>
           
