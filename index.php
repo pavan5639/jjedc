@@ -226,13 +226,12 @@ $msg = "";
 
         <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
-            
-            <div class="card text-center"  style="width: 30rem;">
+            <div class="card text-center">
   <div class="card-header">
   <h3 class="heading">Principal's Desk</h3>
   </div>
   <div class="card-body">
-  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
+  <img class="card-img-top img-fluid" src="./images/about-2.jpg" alt="Card image cap">
     <p class="text-justify"><br>
                   Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
                   Eshwara Seva Samithi under the patronage and blessing of Sri Sri Shivakumara Swamiji,
