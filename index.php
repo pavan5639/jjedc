@@ -94,7 +94,7 @@ $msg = "";
 <!-- nav begin -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">JJEDC</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -105,37 +105,56 @@ $msg = "";
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
+          About JJEDC
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Overview</a></li>
+          <li><a class="dropdown-item" href="#">Vision And Mission</a></li>
+          <li><a class="dropdown-item" href="#">About JJEI</a></li>
+          <li><a class="dropdown-item" href="#">Governing Council</a></li>
+          <li><a class="dropdown-item" href="#">Management Team</a></li>
+          <li><a class="dropdown-item" href="#">videos</a></li>
+         
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Academics
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Course Offered</a></li>
+          <li><a class="dropdown-item" href="#">Department</a></li>
+          <li><a class="dropdown-item" href="#">Examination</a></li>
+          
+         
+        </ul>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Student Corner
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Counselling</a></li>
+          <li><a class="dropdown-item" href="#">PTM and Mentoring</a></li>
+          
           <li class="dropdown-submenu">
+            <a class="dropdown-item dropdown-toggle" href="#">Safety Cells</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Anti-Ragging Cell</a></li>
+              <li><a class="dropdown-item" href="#">Anti-Sexual harassment Cell</a></li>
+              <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
+              </li>
+              <li class="dropdown-submenu">
             <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Submenu action</a></li>
               <li><a class="dropdown-item" href="#">Another submenu action</a></li>
 
-
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                </ul>
-              </li>
-              <li class="dropdown-submenu">
-                <a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
-                  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
-                </ul>
-              </li>
-
-
-
-            </ul>
-          </li>
+</li>
+              
+         
         </ul>
       </li>
     </ul>
