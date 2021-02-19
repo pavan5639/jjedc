@@ -198,7 +198,7 @@ $msg = "";
 						
 							<h3><a href="#"> <?php  echo $row["name"];?></a></h3>
 							<p class="text-justify"><?php  echo $row["Discription"];?></p>
-							<!-- <p><a href="#" class="btn btn-primary">Apply now</a></p> -->
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 				
 				</div>
