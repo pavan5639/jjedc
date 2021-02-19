@@ -464,7 +464,7 @@ $msg = "";
   <div class="form-group row">
     <label for="inputPassword3" class="col-sm-2 col-form-label" >Discription:-</label>
     <div class="col-sm-10">
-        <p id="p">Max:-  150 Characters </p>
+        <p id="p">Max:-  2000 Characters </p>
     <textarea class="form-control " id="textBox1" name="discription" placeholder="Required example textarea" required></textarea>
    <br>
    Choose Image:-
@@ -622,7 +622,7 @@ $msg = "";
 $('#textBox1').keypress(function(e) {
     var tval = $('#textBox1').val(),
         tlength = tval.length,
-        set = 150,
+        set = 2000,
         remain = parseInt(set - tlength);
     $('#p').text(remain);
     if (remain <= 0 && e.which !== 0 && e.charCode !== 0) {
