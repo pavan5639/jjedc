@@ -231,7 +231,7 @@ $msg = "";
   <h3 class="heading">Principal's Desk</h3>
   </div>
   <div class="card-body">
-  <img class="card-img-top" src="./images/aboout-2.jpg" alt="Card image cap">
+  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
     <p>Jnana Jyothi Educational Institution believes in the principles of ‘Work is
                   Worship’ and ‘Giving Back to Society’. <br>
                   Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
