@@ -35,7 +35,34 @@ $msg = "";
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  
+  <style>
+  @media (min-width: 992px){
+	.dropdown-menu .dropdown-toggle:after{
+		border-top: .3em solid transparent;
+	    border-right: 0;
+	    border-bottom: .3em solid transparent;
+	    border-left: .3em solid;
+	}
+	.dropdown-menu .dropdown-menu{
+		margin-left:0; margin-right: 0;
+	}
+	.dropdown-menu li{
+		position: relative;
+	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}
+  </style>
   </head>
   <body>
 	  <div class="bg-top navbar-light">
@@ -74,99 +101,43 @@ $msg = "";
     </div>
 <!-- nav begin -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">JJEDC</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="main_nav">
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          About JJEDC  
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Overview</a></li>
-            <li><a class="dropdown-item" href="#">Vision and Mission</a></li>
-            <li><a class="dropdown-item" href="#">About JJEI</a></li>
-            <li><a class="dropdown-item" href="#">Governing Council</a></li>
-            <li><a class="dropdown-item" href="#">Management Team</a></li>
-            <li><a class="dropdown-item" href="#">Videos</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Academics
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Course Offered</a></li>
-            <li><a class="dropdown-item" href="#">Department </a></li>
-            <li><a class="dropdown-item" href="#">Examination </a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Student Corner
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Counselling</a></li>
-            <li><a class="dropdown-item" href="#">PTM and Mentoring </a></li>
-            <li>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Activities
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-            <li><a class="dropdown-item" href="#">Seminars</a></li>
-            <li><a class="dropdown-item" href="#">Study Centres </a></li>
-            <li><a class="dropdown-item" href="#">Cultural</a></li>
-            <li><a class="dropdown-item" href="#">Sports</a></li>
-            <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
-          </ul>
-            </li>
-           
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Activities
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Seminars</a></li>
-            <li><a class="dropdown-item" href="#">Study Centres </a></li>
-            <li><a class="dropdown-item" href="#">Cultural</a></li>
-            <li><a class="dropdown-item" href="#">Sports</a></li>
-            <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Facilities
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Classroom</a></li>
-            <li><a class="dropdown-item" href="#">Activities hall</a></li>
-            <li><a class="dropdown-item" href="#">Library</a></li>
-            <li><a class="dropdown-item" href="#">Canteen</a></li>
-            <li><a class="dropdown-item" href="#">Computer Lab</a></li>
-          </ul>
-        </li>
+<ul class="navbar-nav">
+<li class="nav-item"> <a class="nav-link" href="#"> First level 1 </a> </li>
+<li class="nav-item"> <a class="nav-link" href="#"> First level 2 </a></li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  First level 3  </a>
+    <ul class="dropdown-menu">
+	  <li><a class="dropdown-item" href="#"> Second level 1 </a></li>
+	  <li><a class="dropdown-item" href="#"> Second level 2 &raquo </a>
+		 <ul class="submenu dropdown-menu">
+		    <li><a class="dropdown-item" href=""> Third level 1</a></li>
+		    <li><a class="dropdown-item" href=""> Third level 2</a></li>
+		    <li><a class="dropdown-item" href=""> Third level 3 &raquo </a>
+			<ul class="submenu dropdown-menu">
+			    <li><a class="dropdown-item" href=""> Fourth level 1</a></li>
+			    <li><a class="dropdown-item" href=""> Fourth level 2</a></li>
+			</ul>
+		    </li>
+		    <li><a class="dropdown-item" href=""> Second level  4</a></li>
+		    <li><a class="dropdown-item" href=""> Second level  5</a></li>
+		 </ul>
+	  </li>
+	  <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+	  <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
+    </ul>
+</li>
+<li class="nav-item"> <a class="nav-link" href="#"> First level 1 </a> </li>
+<li class="nav-item"> <a class="nav-link" href="#"> First level 2 </a></li>
+</ul>
 
-      </ul>
-    </div>
-  </div>
+</div> <!-- navbar-collapse.// -->
 </nav>
-
 
     <!-- END nav -->
     
@@ -850,6 +821,23 @@ $msg = "";
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  
+  <script>
+  $(document).on('click', '.dropdown-menu', function (e) {
+  e.stopPropagation();
+});
+
+// make it as accordion for smaller screens
+if ($(window).width() < 992) {
+  $('.dropdown-menu a').click(function(e){
+    e.preventDefault();
+      if($(this).next('.submenu').length){
+        $(this).next('.submenu').toggle();
+      }
+      $('.dropdown').on('hide.bs.dropdown', function () {
+     $(this).find('.submenu').hide();
+  })
+  });
+}
+  </script>
   </body>
 </html>
