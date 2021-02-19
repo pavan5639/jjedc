@@ -226,7 +226,7 @@ $msg = "";
 
         <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
-
+            
             <div class="card text-center"  style="width: 30rem;">
   <div class="card-header">
   <h3 class="heading">Principal's Desk</h3>
@@ -254,36 +254,7 @@ $msg = "";
   Jnana Jyothi Educational Institution believes in the principles of ‘Work is
                   Worship’ and ‘Giving Back to Society’.
   </div>
-
-
 </div>
-<div class="card text-center"  style="width: 30rem;">
-  <div class="card-header">
-  <h3 class="heading">Principal's Desk</h3>
-  </div>
-  <div class="card-body">
-  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
-    <p class="text-justify"><br>
-                  Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
-                  Eshwara Seva Samithi under the patronage and blessing of Sri Sri Shivakumara Swamiji,
-                  Siddaganga Mutt. The college is a constituent college of Bengaluru City University. It has an
-                  easy reach and connectivity for both rural and urban area students. Driven by this dictum, the
-                  institution caters to the needs of the students from various backgrounds, like job-goers,
-                  CA/CPT students and home-makers, the evening college certificate has the similar value as
-                  day college certificate.
-                  Our vision aims towards transforming the lives and empowering the students with the right
-                  guidance from our excellent facilitators by creating, enriching learning environment and
-                  providing the platform to unleash their potential to climb the ladder of success. Our
-                  institution provides best opportunity to bring out the best in the students to strike a balance
-                  between learning and earning. We groom them in their all-round development. Our passed
-                  out students are working in different streams with well being positions, with this intention our
-                  staff is working on motivating the students.</p>
-
-  </div>
-  <div class="card-footer text-muted">
-  Jnana Jyothi Educational Institution believes in the principles of ‘Work is
-                  Worship’ and ‘Giving Back to Society’.
-  </div>
 
             </div>      
           </div>
