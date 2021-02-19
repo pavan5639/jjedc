@@ -199,7 +199,7 @@ $msg = "";
 <h1>  Principal's Desk</h1>
   </div>
   <div class="card-body">
-  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap">
+  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap"><br><b></b>
     <p class="card-text">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
 Worship’ and ‘Giving Back to Society’.</p> <br>
   </div>
