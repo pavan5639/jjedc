@@ -72,9 +72,11 @@ $msg = "";
 		    </div>
 		  </div>
     </div>
+<!-- nav begin -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">JJEDC</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -83,26 +85,91 @@ $msg = "";
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#">Features</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
+        </li> -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          About JJEDC  
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Overview</a></li>
+            <li><a class="dropdown-item" href="#">Vision and Mission</a></li>
+            <li><a class="dropdown-item" href="#">About JJEI</a></li>
+            <li><a class="dropdown-item" href="#">Governing Council</a></li>
+            <li><a class="dropdown-item" href="#">Management Team</a></li>
+            <li><a class="dropdown-item" href="#">Videos</a></li>
+          </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+            Academics
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Course Offered</a></li>
+            <li><a class="dropdown-item" href="#">Department </a></li>
+            <li><a class="dropdown-item" href="#">Examination </a></li>
           </ul>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Student Corner
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Counselling</a></li>
+            <li><a class="dropdown-item" href="#">PTM and Mentoring </a></li>
+            <li>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Safety Cells
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Seminars</a></li>
+            <li><a class="dropdown-item" href="#">Study Centres </a></li>
+            <li><a class="dropdown-item" href="#">Cultural</a></li>
+            <li><a class="dropdown-item" href="#">Sports</a></li>
+            <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
+          </ul>
+        </li>
+            </li>
+           
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Activities
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Seminars</a></li>
+            <li><a class="dropdown-item" href="#">Study Centres </a></li>
+            <li><a class="dropdown-item" href="#">Cultural</a></li>
+            <li><a class="dropdown-item" href="#">Sports</a></li>
+            <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Facilities
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Classroom</a></li>
+            <li><a class="dropdown-item" href="#">Activities hall</a></li>
+            <li><a class="dropdown-item" href="#">Library</a></li>
+            <li><a class="dropdown-item" href="#">Canteen</a></li>
+            <li><a class="dropdown-item" href="#">Computer Lab</a></li>
+          </ul>
+        </li>
+
       </ul>
     </div>
   </div>
 </nav>
+
+
     <!-- END nav -->
     
     <section class="home-slider owl-carousel">
