@@ -123,26 +123,16 @@ $msg = "";
             <li><a class="dropdown-item" href="#">Counselling</a></li>
             <li><a class="dropdown-item" href="#">PTM and Mentoring </a></li>
             <li>
-            <a  class="dropdown-item" tabindex="-1" href="#">Hover me for more options</a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a tabindex="-1" href="#">Second level</a></li>
-                    <li class="dropdown-submenu">
-                      <a class="dropdown-item" href="#">Even More..</a>
-                      <ul class="dropdown-menu">
-                          <li class="dropdown-item"><a href="#">3rd level</a></li>
-                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">another level</a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-item"><a href="#">4th level</a></li>
-                                <li class="dropdown-item"><a href="#">4th level</a></li>
-                                <li class="dropdown-item"><a href="#">4th level</a></li>
-                            </ul>
-                          </li>
-                            <li class="dropdown-item"><a href="#">3rd level</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-item"><a href="#">Second level</a></li>
-                    <li class="dropdown-item"><a href="#">Second level</a></li>
-                  </ul>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Activities
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+            <li><a class="dropdown-item" href="#">Seminars</a></li>
+            <li><a class="dropdown-item" href="#">Study Centres </a></li>
+            <li><a class="dropdown-item" href="#">Cultural</a></li>
+            <li><a class="dropdown-item" href="#">Sports</a></li>
+            <li><a class="dropdown-item" href="#">Youth Red Cross</a></li>
+          </ul>
             </li>
            
           </ul>
