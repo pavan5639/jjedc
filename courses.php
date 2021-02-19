@@ -191,13 +191,13 @@ $msg = "";
                                 while($row = $result->fetch_assoc()) {
                                     // echo "<br> id: ". $row["id"]. " - Name: ". $row["firstname"]. " " . $row["lastname"] . "<br>";
                                     ?>
-      <div class="col-md-3 course ftco-animate">
+      <div class="col-lg-12 course ftco-animate">
 						<div class="img" style="background-image: url(./admin/img/<?php  echo $row["path"];?>);"></div>
 						<div class="text pt-4">
 						
 							<h3><a href="#"> <?php  echo $row["name"];?></a></h3>
 							<p><?php  echo $row["Discription"];?></p>
-							<p><a href="#" class="btn btn-primary">Apply now</a></p>
+							<!-- <p><a href="#" class="btn btn-primary">Apply now</a></p> -->
 						</div>
 				
 				</div>
