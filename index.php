@@ -147,12 +147,14 @@ $msg = "";
               <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
               </li>
               <li class="dropdown-submenu">
-            <a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+            <a class="dropdown-item dropdown-toggle" href="#">Safety Cells</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Submenu action</a></li>
-              <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+              <li><a class="dropdown-item" href="#">Anti-Ragging Cell</a></li>
+              <li><a class="dropdown-item" href="#">Anti-Sexual harassment Cell</a></li>
+              <li><a class="dropdown-item" href="#">Grievance Cell</a></li>
+              </li>     
 
-</li>
+
               
          
         </ul>
@@ -211,19 +213,15 @@ $msg = "";
 			<div class="container-wrap">
 				<div class="row no-gutters">
 
-        <div class="col-lg-6 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
-            <div class="card text-center">
-  <div class="card-header">
-<h1>  Principal's Desk</h1>
-  </div>
-  <div class="card-body">
-  <img class="card-img-top" src="./images/about-2.jpg" alt="Card image cap"><br><b></b>
-    <p class="card-text">Jnana Jyothi Educational Institution believes in the principles of ‘Work is
-Worship’ and ‘Giving Back to Society’.</p> <br>
-  </div>
-  <div class="card-footer text-muted">
-  <p class="text-justify">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="flaticon-teacher"></span>
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Principal's Desk</h3>
+                <p>Jnana Jyothi Educational Institution believes in the principles of ‘Work is
+Worship’ and ‘Giving Back to Society’. <br>
 Jnana Jyothi Evening Degree College was established in 2012 by Veerashaiva Sree
 Eshwara Seva Samithi under the patronage and blessing of Sri Sri Shivakumara Swamiji,
 Siddaganga Mutt. The college is a constituent college of Bengaluru City University. It has an
@@ -238,17 +236,11 @@ institution provides best opportunity to bring out the best in the students to s
 between learning and earning. We groom them in their all-round development. Our passed
 out students are working in different streams with well being positions, with this intention our
 staff is working on motivating the students.</p>
-  </div>
-</div>
-
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading"></h3>
-                
              <a href="#">Read more</a>
               </div>
             </div>      
           </div>
-          <div class="col-lg-6 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-teacher"></span>
@@ -263,7 +255,7 @@ Sri Sri Shivakumara Swamiji, Siddaganga Mutt.</p>
               </div>
             </div>      
           </div>
-          <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-reading"></span>
@@ -280,7 +272,7 @@ Provide an opportunity to bring out the best in the students to strike a balance
               </div>
             </div>    
           </div>
-          <div class="col-lg-12 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-books"></span>
