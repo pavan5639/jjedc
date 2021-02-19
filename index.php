@@ -192,7 +192,7 @@ $msg = "";
 			<div class="container-wrap">
 				<div class="row no-gutters">
 
-        <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+        <div class="col-lg-6 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
             <div class="card text-center">
   <div class="card-header">
@@ -229,7 +229,7 @@ staff is working on motivating the students.</p>
               </div>
             </div>      
           </div>
-          <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-lg-6 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-teacher"></span>
@@ -261,7 +261,7 @@ Provide an opportunity to bring out the best in the students to strike a balance
               </div>
             </div>    
           </div>
-          <div class="col-lg-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="col-lg-12 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
             		<span class="flaticon-books"></span>
